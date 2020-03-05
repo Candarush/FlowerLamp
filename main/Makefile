@@ -7,11 +7,11 @@ LINKER=g++
 # Путь к директории заголовков mosquitto
 MOSQPATH="C:\Program Files\mosquitto\devel"
 
-# Путь к директории библиотеки mosquitto
+# Путь библиотеке mosquitto
 MOSQLIB="C:\Program Files\mosquitto\devel"
 
 detector: vector3.o soltrack.o sun.o flowerlamp.o MyMQTTWrapper.o MQTTFlowerLamp.o main.o 
-	$(CC) -I$(MOSQPATH) -o detector main.o sun.o flowerlamp.o sun.o soltrack.o vector3.o mymqttwrapper.o -L$(MOSQLIB) -lmosquittopp 
+	$(CC) -I$(MOSQPATH) -o detector main.o sun.o flowerlamp.o sun.o soltrack.o vector3.o mymqttwrapper.o -L$(MOSQLIB) 
 vector3.o: vector3.h
 	$(LINKER) -c vector3.cpp
 main.o:
