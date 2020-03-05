@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../FlLamp/flowerlamp.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/flowerlamp.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/MQTTFlowerLamp.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/MQTTFlowerLamp.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/MyMQTTWrapper.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/MyMQTTWrapper.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/SolTrack.c">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/SolTrack.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/sun.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/sun.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/vector3.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../FlLamp/vector3.h">
+   </FileRef>
+   <FileRef
+      location = "self:FlLamp.xcodeproj">
+   </FileRef>
+</Workspace>

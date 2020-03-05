@@ -2,16 +2,16 @@
 
 namespace MQTTFL
 {
-    void MQTTloop(void* param)
+    void MQTTloop()
     {
-        MyMqttWrapper* MQTTp{ static_cast<MyMqttWrapper*>(param) };
         MQTTp->loop_forever();
     }
 
     void InitMQTT(MyMqttWrapper* MQTT)
     {
         mosqpp::lib_init();
-        _beginthread(MQTTloop, sizeof(MQTT), MQTT);
+        thread t(MQTTloop);
+        t.detach();
     }
 
     void SendData(Lamp* lamp, Sun* sun, MyMqttWrapper* MQTT)

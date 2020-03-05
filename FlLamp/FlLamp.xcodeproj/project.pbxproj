@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D32E8024116F7C00A03A1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E7F24116F7C00A03A1B /* main.cpp */; };
+		33D32E93241171B800A03A1B /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E86241171B700A03A1B /* Vector3.cpp */; };
+		33D32E94241171B800A03A1B /* SolTrack.c in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E88241171B700A03A1B /* SolTrack.c */; };
+		33D32E95241171B800A03A1B /* Lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E8A241171B700A03A1B /* Lamp.cpp */; };
+		33D32E96241171B800A03A1B /* MosqMQTTWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E8B241171B700A03A1B /* MosqMQTTWrapper.cpp */; };
+		33D32E98241171B800A03A1B /* Sun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E90241171B800A03A1B /* Sun.cpp */; };
+		33D32E99241171B800A03A1B /* MQTTFlowerLamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D32E91241171B800A03A1B /* MQTTFlowerLamp.cpp */; };
+		33F6E3942411798800CD49FF /* Cloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33F6E3922411798800CD49FF /* Cloud.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33D32E7A24116F7C00A03A1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33D32E7C24116F7C00A03A1B /* FlLamp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlLamp; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D32E7F24116F7C00A03A1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33D32E86241171B700A03A1B /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		33D32E87241171B700A03A1B /* Sun.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sun.hpp; sourceTree = "<group>"; };
+		33D32E88241171B700A03A1B /* SolTrack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SolTrack.c; sourceTree = "<group>"; };
+		33D32E89241171B700A03A1B /* MQTTFlowerLamp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MQTTFlowerLamp.hpp; sourceTree = "<group>"; };
+		33D32E8A241171B700A03A1B /* Lamp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lamp.cpp; sourceTree = "<group>"; };
+		33D32E8B241171B700A03A1B /* MosqMQTTWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MosqMQTTWrapper.cpp; sourceTree = "<group>"; };
+		33D32E8C241171B700A03A1B /* SolTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolTrack.h; sourceTree = "<group>"; };
+		33D32E8E241171B700A03A1B /* Vector3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector3.hpp; sourceTree = "<group>"; };
+		33D32E8F241171B800A03A1B /* Lamp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lamp.hpp; sourceTree = "<group>"; };
+		33D32E90241171B800A03A1B /* Sun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sun.cpp; sourceTree = "<group>"; };
+		33D32E91241171B800A03A1B /* MQTTFlowerLamp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MQTTFlowerLamp.cpp; sourceTree = "<group>"; };
+		33D32E92241171B800A03A1B /* MosqMQTTWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MosqMQTTWrapper.hpp; sourceTree = "<group>"; };
+		33F6E3922411798800CD49FF /* Cloud.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cloud.cpp; sourceTree = "<group>"; };
+		33F6E3932411798800CD49FF /* Cloud.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cloud.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D32E7924116F7C00A03A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D32E7324116F7C00A03A1B = {
+			isa = PBXGroup;
+			children = (
+				33D32E7E24116F7C00A03A1B /* FlLamp */,
+				33D32E7D24116F7C00A03A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D32E7D24116F7C00A03A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D32E7C24116F7C00A03A1B /* FlLamp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D32E7E24116F7C00A03A1B /* FlLamp */ = {
+			isa = PBXGroup;
+			children = (
+				33D32E7F24116F7C00A03A1B /* main.cpp */,
+				33D32E91241171B800A03A1B /* MQTTFlowerLamp.cpp */,
+				33D32E89241171B700A03A1B /* MQTTFlowerLamp.hpp */,
+				33D32E8B241171B700A03A1B /* MosqMQTTWrapper.cpp */,
+				33D32E92241171B800A03A1B /* MosqMQTTWrapper.hpp */,
+				33D32E8A241171B700A03A1B /* Lamp.cpp */,
+				33D32E8F241171B800A03A1B /* Lamp.hpp */,
+				33D32E88241171B700A03A1B /* SolTrack.c */,
+				33D32E8C241171B700A03A1B /* SolTrack.h */,
+				33D32E90241171B800A03A1B /* Sun.cpp */,
+				33D32E87241171B700A03A1B /* Sun.hpp */,
+				33F6E3922411798800CD49FF /* Cloud.cpp */,
+				33F6E3932411798800CD49FF /* Cloud.hpp */,
+				33D32E86241171B700A03A1B /* Vector3.cpp */,
+				33D32E8E241171B700A03A1B /* Vector3.hpp */,
+			);
+			path = FlLamp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D32E7B24116F7C00A03A1B /* FlLamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D32E8324116F7C00A03A1B /* Build configuration list for PBXNativeTarget "FlLamp" */;
+			buildPhases = (
+				33D32E7824116F7C00A03A1B /* Sources */,
+				33D32E7924116F7C00A03A1B /* Frameworks */,
+				33D32E7A24116F7C00A03A1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlLamp;
+			productName = FlLamp;
+			productReference = 33D32E7C24116F7C00A03A1B /* FlLamp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D32E7424116F7C00A03A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Vladislav Akimov";
+				TargetAttributes = {
+					33D32E7B24116F7C00A03A1B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 33D32E7724116F7C00A03A1B /* Build configuration list for PBXProject "FlLamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D32E7324116F7C00A03A1B;
+			productRefGroup = 33D32E7D24116F7C00A03A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D32E7B24116F7C00A03A1B /* FlLamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D32E7824116F7C00A03A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D32E98241171B800A03A1B /* Sun.cpp in Sources */,
+				33F6E3942411798800CD49FF /* Cloud.cpp in Sources */,
+				33D32E99241171B800A03A1B /* MQTTFlowerLamp.cpp in Sources */,
+				33D32E96241171B800A03A1B /* MosqMQTTWrapper.cpp in Sources */,
+				33D32E95241171B800A03A1B /* Lamp.cpp in Sources */,
+				33D32E93241171B800A03A1B /* Vector3.cpp in Sources */,
+				33D32E94241171B800A03A1B /* SolTrack.c in Sources */,
+				33D32E8024116F7C00A03A1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33D32E8124116F7C00A03A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_LDFLAGS = "-lmosquittopp";
+			};
+			name = Debug;
+		};
+		33D32E8224116F7C00A03A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				WARNING_LDFLAGS = "-lmosquittopp";
+			};
+			name = Release;
+		};
+		33D32E8424116F7C00A03A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include/;
+				WARNING_CFLAGS = "";
+				WARNING_LDFLAGS = (
+					"-lmosquitto",
+					"-lmosquittopp",
+				);
+			};
+			name = Debug;
+		};
+		33D32E8524116F7C00A03A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include/;
+				WARNING_CFLAGS = "";
+				WARNING_LDFLAGS = (
+					"-lmosquitto",
+					"-lmosquittopp",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D32E7724116F7C00A03A1B /* Build configuration list for PBXProject "FlLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D32E8124116F7C00A03A1B /* Debug */,
+				33D32E8224116F7C00A03A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D32E8324116F7C00A03A1B /* Build configuration list for PBXNativeTarget "FlLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D32E8424116F7C00A03A1B /* Debug */,
+				33D32E8524116F7C00A03A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D32E7424116F7C00A03A1B /* Project object */;
+}

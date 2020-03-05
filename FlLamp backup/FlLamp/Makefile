@@ -5,7 +5,7 @@ CC=g++
 LINKER=g++
 
 detector: vector3.o soltrack.o sun.o flowerlamp.o MyMQTTWrapper.o MQTTFlowerLamp.o main.o 
-	$(CC) -o detector main.o sun.o flowerlamp.o sun.o soltrack.o vector3.o mymqttwrapper.o -lmosquittopp
+	$(CC) -std=c++11 -o detector detector main.o sun.o flowerlamp.o sun.o soltrack.o vector3.o mymqttwrapper.o -lmosquitto -lmosquittopp
 vector3.o: vector3.h
 	$(LINKER) -c vector3.cpp
 main.o:

@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="flowerlamp.cpp">
+    <Files>
+      <File FileName="flowerlamp.cpp" Line="10" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FlowerLamp" expanded="True">
+            <Node name="FlowerLamp" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x64" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
